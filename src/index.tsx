@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-
-import { AppRoutes } from './app/routes';
+import { App } from './app/App';
 
 import reportWebVitals from './reportWebVitals';
 
@@ -12,7 +11,7 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <AppRoutes /> {/* Aqui você renderiza o seu componente principal, App ou AppRoutes */}
+    <App /> {/* Aqui você renderiza o seu componente principal, App ou AppRoutes */}
   </React.StrictMode>
 );
 

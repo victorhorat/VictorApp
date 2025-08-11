@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"; // 'Routes' importado diretamente
 import { Dashboard, Login } from '../pages';
 
